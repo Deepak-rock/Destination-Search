@@ -1,1 +1,18 @@
 /* Write your CSS here */
+.image-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+.image{
+    width:240px;
+    height: auto;
+}
+.name{
+    font-size: 18px;
+    font-family: 'Roboto';
+    color:#000000;
+    margin: 10px 0 0 0;
+}
